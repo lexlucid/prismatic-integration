@@ -801,13 +801,13 @@ video {
 @font-face {
   font-family: "Romancial";
 
-  src: url("./fonts/Romancial.ttf");
+  src: url("/fonts/Romancial.ttf");
 }
 
 @font-face {
   font-family: "Cruiser";
 
-  src: url("./fonts/Cruiser.ttf");
+  src: url("/fonts/Cruiser.ttf");
 }
 
 @media (min-width: 640px) {
