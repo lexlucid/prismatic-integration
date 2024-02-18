@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Romancial';
+    src: url('/fonts/Romancial.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: Romancial, sans-serif;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+        color: #EB8D69;
+    }
+}
+
+body {
+    background: #211F20;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coral {
+    color: #EB8D69;
+}
+
+.container {
+    width: fit-content;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-links {
+    display: flex;
+    li {
+        list-style-type: none;
+        padding: 0 16px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left .right{
+        flex: 1;
+    }
+}
+
+#portal {
+    width: 75%;
+    height: 75%;
+}
+
